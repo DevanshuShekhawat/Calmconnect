@@ -1,0 +1,103 @@
+.profile-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 80%;
+    
+    .profile-image {
+      width: 9rem;
+      height: 9rem;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-top: 60px;
+      margin-left: 10%;
+    }
+
+    .profile-name {
+      font-family: "Victor Mono", monospace;
+    }
+
+    .user-bio {
+      font-family: "Victor Mono", monospace;
+      margin-top: -15px;
+    }
+  }
+
+  .profile-threads {
+    margin-bottom: 60px;
+    padding: 10px;
+    margin-top: 0px;
+    width: 80%;
+  }
+}
+
+.image-section {
+  position: relative;
+}
+
+.upload-btn-wrapper {
+  position: absolute;
+  overflow: hidden;
+  right: 20px;
+  margin-top: 40px;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.edit-profile {
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  outline: none;
+  background-color: rgb(43, 40, 40);
+  border: 1px solid rgb(29, 27, 27);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+ .bio-edit {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   height: 40px;
+   gap: 20px;
+ }
+
+.bio-edit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 55px;
+  margin-right: 540px;
+}
+
+.bio-input {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #302d2d;
+  outline: none;
+  border: 1px solid rgb(66, 66, 66);
+  color: whitesmoke;
+}
+
+.progress-bar {
+  width: 140px;
+}

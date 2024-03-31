@@ -1,0 +1,8 @@
+
+$padding: 10px;
+
+.#{main} {
+  display: flex;
+  flex-direction: column;
+  padding: $padding;
+}

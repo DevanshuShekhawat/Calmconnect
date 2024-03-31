@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-item-link {
+    text-decoration: none;
+    color: inherit; // Inherit color from parent
+  }
+  
+  .grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  

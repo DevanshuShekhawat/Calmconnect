@@ -1,0 +1,108 @@
+.reply-details {
+  .thread-header {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 20px 30px;
+
+    h2 {
+      font-family: "Victor Mono", monospace;
+    }
+
+    p {
+      font-family: "Victor Mono", monospace;
+      font-size: 1.4rem;
+    }
+  }
+
+  .thread-card {
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    padding: 0 20px;
+    cursor: pointer;
+    border-top: 1px solid rgb(59, 59, 59);
+    border-bottom: 1px solid rgb(59, 59, 59);
+
+    .name {
+      font-size: 1.1rem;
+      margin-top: 25px;
+    }
+
+    .thread-user-image {
+      width: 2rem;
+      height: 2rem;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-top: 25px;
+    }
+
+    .timestamp {
+      font-size: 0.9rem;
+      margin-top: -8px;
+    }
+
+    .name,
+    .timestamp {
+      font-family: "Victor Mono", monospace;
+    }
+
+    .description {
+      margin-top: -10px;
+      font-size: 1rem;
+      word-wrap: break-word;
+
+      .action-btns {
+        margin-left: 50px;
+      }
+    }
+
+    .vertical-line {
+      min-height: 10vh;
+      margin-left: -15px;
+      position: absolute;
+    }
+
+    .action-btns {
+      display: flex;
+      justify-content: space-between;
+      width: 15%;
+    }
+  }
+}
+
+.all-replies {
+  padding-left: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  gap: 20px;
+  margin-left: 30px;
+
+  .reply-head {
+    .thread-user-image {
+      width: 2rem;
+      height: 2rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  .reply-name {
+    font-family: "Victor Mono", monospace;
+    font-size: 1.8rem;
+    margin-top: 0px;
+    margin-left: 10%;
+  }
+
+  .comment {
+    font-family: "Victor Mono", monospace;
+    font-size: 1.5rem;
+    margin-left: 12%;
+  }
+
+  .reply-timestamp {
+    font-family: "Victor Mono", monospace;
+    font-size: 13px;
+  }
+}

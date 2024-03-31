@@ -1,0 +1,37 @@
+$message-padding-y: 2px;
+$message-padding-x: 3px;
+$name-font-color: #616161;
+$sent-bg-color: #395dff;
+$received-bg-color: #e5e5ea;
+
+.message {
+  display: flex;
+  align-items: cener;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  margin: 4px;
+  padding: $message-padding-y $message-padding-x;
+  border-radius: 9999px; /* For rounded corners */
+}
+
+.name {
+  position: absolute;
+  margin-top: -4rem;
+  color: $name-font-color;
+  font-size: 0.75rem; /* Equivalent to text-xs */
+}
+
+.sent {
+  background-color: $sent-bg-color;
+  color: white;
+  flex-direction: row-reverse;
+  text-align: end;
+  float: right;
+  border-radius: 9999px; /* For rounded corners */
+}
+
+.received {
+  background-color: $received-bg-color;
+  color: black;
+  float: left;
+  border-radius: 9999px; /* For rounded corners */
+}

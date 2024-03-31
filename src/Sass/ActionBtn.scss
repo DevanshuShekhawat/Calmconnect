@@ -1,0 +1,52 @@
+.action-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 5px;
+}
+
+.comment-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Victor Mono", monospace;
+}
+
+.count {
+  font-family: "Victor Mono", monospace;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: flex;
+  height: 20px;
+
+  align-items: center;
+  .reply-count {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .reply-head {
+    .thread-user-image {
+      width: 1.5rem;
+      height: 1.5rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}
+
+.replies-icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.reply-user-image img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  left: 45px;
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Victor+Mono:wght@400;500;600;700&display=swap");
+
+@import url("./Sass/Threads.scss");
+@import url("./Sass/Login.scss");
+@import url("./Sass/BottomBar.scss");
+@import url("./Sass/CreateThread.scss");
+@import url("./Sass/Profile.scss");
+@import url("./Sass/Notification.scss");
+@import url("./Sass/ThreadDetails.scss");
+@import url("./Sass/Modal.scss");
+@import url("./Sass/ActionBtn.scss");
+@import url("./Sass/Replies.scss");
+@import url("./Sass/MainHome.scss");
+@import url("./Sass/ThreadDetails.scss");
+@import url("./Sass/Games.scss");
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #151515;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.JC-SB {
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.JC-FC {
+  gap: 20px;
+  flex-direction: column;
+}
+
+.react-icon {
+  cursor: pointer;
+}
+
+.logout-btn {
+  background-color: #212121;
+  height: 40px;
+  width: 140px;
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  outline: none;
+  border: 1px solid #ff8c59;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+
+.divider {
+  background-color: rgb(31, 31, 31);
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
